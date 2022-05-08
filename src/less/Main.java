@@ -26,7 +26,7 @@ public class Main {
             }else if(naviPointFaze == 16){
                 System.out.println("\nCongratulations Navi!\n");
                 break;
-            }else if(fazePointNavi >= 15 && naviPointFaze >= 15){
+            }else if(fazePointNavi && naviPointFaze == 15){
                 fn -= 6;
                 fazePointNavi -= 3;
                 naviPointFaze -= 3;
